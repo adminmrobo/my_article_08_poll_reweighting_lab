@@ -1,0 +1,651 @@
+{
+ "version": "0.1",
+ "created": "2026-10-29",
+ "note": "X1 페이지에서 새로 만든 ID. 기존 시리즈 등록부와 합칠 때 같은 이름 다른 ID가 없는지 확인할 것.",
+ "ids": [
+  {
+   "id": "lab:method/raw-sample-mean",
+   "type": "Method",
+   "ko": "원시 평균",
+   "en": "raw sample mean"
+  },
+  {
+   "id": "lab:method/poststratification",
+   "type": "Method",
+   "ko": "사후층화",
+   "en": "poststratification"
+  },
+  {
+   "id": "lab:method/raking",
+   "type": "Method",
+   "ko": "레이킹",
+   "en": "raking (iterative proportional fitting)"
+  },
+  {
+   "id": "lab:method/past-vote-weighting",
+   "type": "Method",
+   "ko": "지난 투표 가중",
+   "en": "past-vote weighting"
+  },
+  {
+   "id": "lab:method/partial-pooling",
+   "type": "Method",
+   "ko": "부분 풀링",
+   "en": "partial pooling"
+  },
+  {
+   "id": "lab:method/mrp",
+   "type": "Method",
+   "ko": "MRP",
+   "en": "multilevel regression and poststratification"
+  },
+  {
+   "id": "lab:method/empirical-bayes",
+   "type": "Method",
+   "ko": "경험적 베이즈",
+   "en": "empirical Bayes"
+  },
+  {
+   "id": "lab:method/state-space-aggregation",
+   "type": "Method",
+   "ko": "상태공간 조사 합치기",
+   "en": "state-space poll aggregation"
+  },
+  {
+   "id": "lab:method/kalman-filter",
+   "type": "Method",
+   "ko": "칼만 필터",
+   "en": "Kalman filter"
+  },
+  {
+   "id": "lab:method/election-cross-validation",
+   "type": "Method",
+   "ko": "선거 단위 교차검증",
+   "en": "leave-one-election-out cross-validation"
+  },
+  {
+   "id": "lab:method/inverse-propensity-weighting",
+   "type": "Method",
+   "ko": "역확률 가중",
+   "en": "inverse propensity weighting"
+  },
+  {
+   "id": "lab:concept/population",
+   "type": "Concept",
+   "ko": "모집단",
+   "en": "population"
+  },
+  {
+   "id": "lab:concept/nonresponse-bias",
+   "type": "Concept",
+   "ko": "무응답 편향",
+   "en": "nonresponse bias"
+  },
+  {
+   "id": "lab:concept/sampling-error",
+   "type": "Concept",
+   "ko": "우연 오차",
+   "en": "sampling error"
+  },
+  {
+   "id": "lab:concept/data-defect-correlation",
+   "type": "Concept",
+   "ko": "데이터 결함 상관",
+   "en": "data defect correlation"
+  },
+  {
+   "id": "lab:concept/survey-weight",
+   "type": "Concept",
+   "ko": "가중치",
+   "en": "survey weight"
+  },
+  {
+   "id": "lab:concept/effective-sample-size",
+   "type": "Concept",
+   "ko": "유효 표본 크기",
+   "en": "effective sample size"
+  },
+  {
+   "id": "lab:concept/missing-at-random",
+   "type": "Concept",
+   "ko": "칸 조건부 무작위 응답",
+   "en": "missing at random (MAR)"
+  },
+  {
+   "id": "lab:concept/house-effect",
+   "type": "Concept",
+   "ko": "기관 효과",
+   "en": "house effect"
+  },
+  {
+   "id": "lab:concept/common-industry-bias",
+   "type": "Concept",
+   "ko": "업계 공통 치우침",
+   "en": "common industry bias"
+  },
+  {
+   "id": "lab:concept/recall-error",
+   "type": "Concept",
+   "ko": "지난 투표 기억 착오",
+   "en": "vote recall error"
+  },
+  {
+   "id": "lab:concept/normal-distribution",
+   "type": "Concept",
+   "ko": "정규분포",
+   "en": "normal distribution"
+  },
+  {
+   "id": "lab:concept/central-limit-theorem",
+   "type": "Concept",
+   "ko": "중심극한정리",
+   "en": "central limit theorem"
+  },
+  {
+   "id": "lab:concept/data-leakage",
+   "type": "Concept",
+   "ko": "정보 누수",
+   "en": "data leakage"
+  },
+  {
+   "id": "lab:concept/turnout-model",
+   "type": "Concept",
+   "ko": "투표율 모형",
+   "en": "turnout model"
+  },
+  {
+   "id": "lab:task/vote-share-estimation",
+   "type": "Task",
+   "ko": "지지율 추정",
+   "en": "vote share estimation"
+  },
+  {
+   "id": "lab:task/small-area-estimation",
+   "type": "Task",
+   "ko": "작은 칸 추정",
+   "en": "small area estimation"
+  },
+  {
+   "id": "lab:metric/mean-absolute-error",
+   "type": "Metric",
+   "ko": "평균 절대 오차",
+   "en": "mean absolute error"
+  },
+  {
+   "id": "lab:metric/cell-rmse",
+   "type": "Metric",
+   "ko": "칸 평균 제곱근 오차",
+   "en": "cell RMSE"
+  },
+  {
+   "id": "lab:dataset/toy-electorate-x1",
+   "type": "Dataset",
+   "ko": "가상 유권자 세계",
+   "en": "simulated electorate (X1)"
+  },
+  {
+   "id": "lab:dataset/past-election-results",
+   "type": "Dataset",
+   "ko": "지난 선거 결과",
+   "en": "past election results"
+  },
+  {
+   "id": "lab:limitation/ignores-known-composition",
+   "type": "Limitation",
+   "ko": "알려진 구성을 쓰지 않음",
+   "en": "ignores known population composition"
+  },
+  {
+   "id": "lab:limitation/within-cell-selection",
+   "type": "Limitation",
+   "ko": "칸 안 선택 치우침",
+   "en": "within-cell selection bias"
+  },
+  {
+   "id": "lab:limitation/small-cells-and-weight-variance",
+   "type": "Limitation",
+   "ko": "작은 칸과 가중치 흔들림",
+   "en": "small cells and weight variance"
+  },
+  {
+   "id": "lab:limitation/single-poll-and-omitted-bias",
+   "type": "Limitation",
+   "ko": "조사 하나·모형 밖 치우침",
+   "en": "single poll and omitted-variable bias"
+  },
+  {
+   "id": "lab:limitation/few-elections",
+   "type": "Limitation",
+   "ko": "적은 시험 횟수",
+   "en": "few elections to test on"
+  },
+  {
+   "id": "lab:analogy/pipette-layered-sample",
+   "type": "Analogy",
+   "ko": "층이 갈라진 시료 위쪽만 피펫으로 뜨기",
+   "en": "pipetting the top of a layered sample"
+  },
+  {
+   "id": "lab:analogy/layer-volume-weighting",
+   "type": "Analogy",
+   "ko": "층 부피로 층별 농도 가중",
+   "en": "weighting layer concentrations by volume"
+  },
+  {
+   "id": "lab:analogy/calibration-standard",
+   "type": "Analogy",
+   "ko": "표준 시료로 기기 맞추기",
+   "en": "instrument calibration with a standard"
+  },
+  {
+   "id": "lab:analogy/borrow-neighbor-tubes",
+   "type": "Analogy",
+   "ko": "이웃 조건 결과 빌려 읽기",
+   "en": "borrowing from neighboring conditions"
+  },
+  {
+   "id": "lab:analogy/multi-lab-standard-test",
+   "type": "Analogy",
+   "ko": "여러 실험실 측정과 표준 시험",
+   "en": "multi-lab measurements and a standard test"
+  },
+  {
+   "id": "lab:analogy/feedback-buttons",
+   "type": "Analogy",
+   "ko": "챗봇 좋아요 피드백",
+   "en": "chatbot feedback buttons"
+  },
+  {
+   "id": "lab:claim/literary-digest-1936",
+   "type": "Claim",
+   "ko": "1936년 잡지 우편 조사: 약 240만 장 회수, 예측 반대",
+   "en": "1936 Literary Digest poll miss"
+  },
+  {
+   "id": "lab:claim/literary-digest-nonresponse",
+   "type": "Claim",
+   "ko": "1936년 실패의 주원인은 무응답 편향일 가능성이 가장 크다 (저자 해석)",
+   "en": "Literary Digest failure most probably due to nonresponse"
+  },
+  {
+   "id": "lab:claim/meng-2016-effective-n",
+   "type": "Claim",
+   "ko": "약 230만 명 자기 보고 표본 ≈ 무작위 약 400명 (2016년 미국)",
+   "en": "2.3 million self-reports ≈ SRS of about 400"
+  },
+  {
+   "id": "lab:claim/kr-response-rates-2023",
+   "type": "Claim",
+   "ko": "같은 주 ARS 응답률 2.2%, 전화면접 14.2%",
+   "en": "Korean ARS vs phone response rates"
+  },
+  {
+   "id": "lab:claim/kr-weight-ratio-rule",
+   "type": "Claim",
+   "ko": "성·연령·지역 가중값 배율 0.7~1.5 (2020년 보도)",
+   "en": "Korean weight ratio rule 0.7–1.5 (2020 report)"
+  },
+  {
+   "id": "lab:claim/uk-2015-unrepresentative",
+   "type": "Claim",
+   "ko": "2015년 영국 총선 조사 실패의 주원인은 대표성 없는 표본",
+   "en": "UK 2015 miss: unrepresentative samples"
+  },
+  {
+   "id": "lab:claim/uk-2010-2015-switching",
+   "type": "Claim",
+   "ko": "2010~2015년 지지 정당을 바꾼 유권자 38% (영국선거연구 인용)",
+   "en": "38% switched party 2010–2015"
+  },
+  {
+   "id": "lab:claim/us-2016-education-weighting",
+   "type": "Claim",
+   "ko": "2016년 미국 주 조사: 대졸자 과대표집을 학력으로 가중하지 않음, 막판 지지 이동",
+   "en": "US 2016: no education weighting, late swing"
+  },
+  {
+   "id": "lab:claim/kr-ars-high-involvement",
+   "type": "Claim",
+   "ko": "응답률 낮은 ARS는 정치 고관여층 과다대표 경향 (전문가 해석)",
+   "en": "low-response IVR over-represents engaged (expert view)"
+  },
+  {
+   "id": "lab:claim/xbox-mrp-2015",
+   "type": "Claim",
+   "ko": "약 34만 명 게임기 이용자 표본에 MRP 적용, 주요 예측과 비슷",
+   "en": "Xbox polls with MRP comparable to leading forecasts"
+  },
+  {
+   "id": "lab:claim/mrp-state-estimates-2004",
+   "type": "Claim",
+   "ko": "전국 조사로 주별 여론 추정에 베이지안 다층 모형 + 사후층화",
+   "en": "MRP for state-level estimates from national polls"
+  },
+  {
+   "id": "lab:question/core",
+   "type": "Question",
+   "ko": "치우친 응답자로 유권자 전체를 맞힐 수 있을까?",
+   "en": "can a self-selected sample recover the electorate?"
+  },
+  {
+   "id": "lab:question/duel",
+   "type": "Question",
+   "ko": "3,000명 원시 평균 대 1,000명 + 지난 투표 가중",
+   "en": "3000 raw vs 1000 past-vote weighted"
+  },
+  {
+   "id": "lab:question/kr-overresponse-magnitude",
+   "type": "Question",
+   "ko": "국내 조사에서 강성층 과다 응답의 크기를 직접 잰 연구는? (확인 필요)",
+   "en": "measured magnitude of partisan over-response in Korean polls"
+  },
+  {
+   "id": "lab:question/current-weight-rule",
+   "type": "Question",
+   "ko": "현행 가중값 배율 기준은 2020년 보도와 같은가? (확인 필요)",
+   "en": "is the 0.7–1.5 rule still current?"
+  },
+  {
+   "id": "lab:work/lusinchi2012president",
+   "type": "Work",
+   "ko": "Lusinchi 2012",
+   "en": "lusinchi2012president"
+  },
+  {
+   "id": "lab:work/meng2018statistical",
+   "type": "Work",
+   "ko": "Meng 2018",
+   "en": "meng2018statistical"
+  },
+  {
+   "id": "lab:work/munhwa2023ars",
+   "type": "Work",
+   "ko": "문화일보 2023",
+   "en": "munhwa2023ars"
+  },
+  {
+   "id": "lab:work/newdaily2020weight",
+   "type": "Work",
+   "ko": "뉴데일리 2020",
+   "en": "newdaily2020weight"
+  },
+  {
+   "id": "lab:work/sturgis2016report",
+   "type": "Work",
+   "ko": "Sturgis 외 2016",
+   "en": "sturgis2016report"
+  },
+  {
+   "id": "lab:work/seoul2024ars",
+   "type": "Work",
+   "ko": "서울신문 2024",
+   "en": "seoul2024ars"
+  },
+  {
+   "id": "lab:work/kennedy2018evaluation",
+   "type": "Work",
+   "ko": "Kennedy 외 2018",
+   "en": "kennedy2018evaluation"
+  },
+  {
+   "id": "lab:work/park2004bayesian",
+   "type": "Work",
+   "ko": "Park 외 2004",
+   "en": "park2004bayesian"
+  },
+  {
+   "id": "lab:work/wang2015forecasting",
+   "type": "Work",
+   "ko": "Wang 외 2015",
+   "en": "wang2015forecasting"
+  },
+  {
+   "id": "lab:method/tree-poststratification",
+   "type": "Method",
+   "ko": "트리 모형 + 사후층화",
+   "en": "tree model with poststratification"
+  },
+  {
+   "id": "lab:method/paper-three-stage-weighting",
+   "type": "Method",
+   "ko": "원래 3단계 가중식",
+   "en": "original three-stage weighting"
+  },
+  {
+   "id": "lab:method/laplace-approximation",
+   "type": "Method",
+   "ko": "라플라스 근사",
+   "en": "Laplace approximation"
+  },
+  {
+   "id": "lab:concept/rule-label-circularity",
+   "type": "Concept",
+   "ko": "규칙 라벨의 순환성",
+   "en": "circularity of rule-based labels"
+  },
+  {
+   "id": "lab:concept/topic-interest-participation",
+   "type": "Concept",
+   "ko": "주제 관심과 응답 협조",
+   "en": "topic interest and survey cooperation"
+  },
+  {
+   "id": "lab:concept/partisan-nonresponse",
+   "type": "Concept",
+   "ko": "당파적 무응답",
+   "en": "partisan nonresponse"
+  },
+  {
+   "id": "lab:concept/affective-polarization",
+   "type": "Concept",
+   "ko": "정서적 양극화",
+   "en": "affective polarization"
+  },
+  {
+   "id": "lab:concept/motivated-reasoning",
+   "type": "Concept",
+   "ko": "동기화된 추론",
+   "en": "motivated reasoning"
+  },
+  {
+   "id": "lab:concept/world-calibration",
+   "type": "Concept",
+   "ko": "가상 세계 현실성 점검",
+   "en": "simulation realism check"
+  },
+  {
+   "id": "lab:task/published-table-check",
+   "type": "Task",
+   "ko": "공표 결과표 점검",
+   "en": "published crosstab check"
+  },
+  {
+   "id": "lab:question/ml-necessity",
+   "type": "Question",
+   "ko": "조사기관마다 자체 보정이 있는데 ML 보정이 필요한가",
+   "en": "is ML correction needed given in-house adjustments?"
+  },
+  {
+   "id": "lab:claim/kr-ars-share-overstates",
+   "type": "Claim",
+   "ko": "ARS 비중이 클수록 주요 정당 지지 과대·무당층 과소, 응답률 낮을수록 효과 큼 (2017~2020 통합 자료)",
+   "en": "higher ARS share overstates major parties"
+  },
+  {
+   "id": "lab:claim/kr-virtual-number-accuracy",
+   "type": "Claim",
+   "ko": "2017 휴대전화 가상번호 도입 뒤 전화조사 정확도 개선",
+   "en": "phone poll accuracy improved after virtual numbers"
+  },
+  {
+   "id": "lab:claim/kr-no-mode-difference",
+   "type": "Claim",
+   "ko": "20대 대선: 전화면접·ARS 응답자 대표성 차이 유의하지 않음",
+   "en": "no significant ARS/phone representativeness difference"
+  },
+  {
+   "id": "lab:claim/topic-interest-cooperation",
+   "type": "Claim",
+   "ko": "주제 관심이 높으면 협조율이 높고 무응답이 편향이 될 수 있음",
+   "en": "topic interest raises cooperation"
+  },
+  {
+   "id": "lab:claim/cooperation-engaged-overrep",
+   "type": "Claim",
+   "ko": "응답률 하락의 주원인은 협조 감소, 협조는 정치 관심과 연결되어 관여층 과대 대표 (158개 조사)",
+   "en": "declining cooperation overrepresents the engaged"
+  },
+  {
+   "id": "lab:claim/swing-voter-partisan-adjust",
+   "type": "Claim",
+   "ko": "정당·이념·지난 투표 보정이 지지율 변동을 50% 넘게 줄임",
+   "en": "adjusting partisanship cuts swings by more than half"
+  },
+  {
+   "id": "lab:claim/partisan-cooperation-2020",
+   "type": "Claim",
+   "ko": "2020 전화조사: 한쪽 지지자 협조 약 3점 높음, 협조 균등화 사후층화로 격차 오차 약 4점 감소",
+   "en": "partisan cooperation gap in 2020 phone polls"
+  },
+  {
+   "id": "lab:claim/affective-polarization-review",
+   "type": "Claim",
+   "ko": "정당이 사회적 정체성으로 작동, 상대 정당 반감 증가 (이론 정리)",
+   "en": "partisanship as social identity"
+  },
+  {
+   "id": "lab:claim/motivated-skepticism",
+   "type": "Claim",
+   "ko": "태도 일치 논증을 더 강하게 평가, 강한 태도·높은 지식층에서 더 큼 (실험)",
+   "en": "motivated skepticism"
+  },
+  {
+   "id": "lab:work/choi2022effects",
+   "type": "Work",
+   "ko": "최종호 외 2022",
+   "en": "choi2022effects"
+  },
+  {
+   "id": "lab:work/kwak2022accuracy",
+   "type": "Work",
+   "ko": "곽은선·김영원 2022",
+   "en": "kwak2022accuracy"
+  },
+  {
+   "id": "lab:work/jung2023representativeness",
+   "type": "Work",
+   "ko": "정일권 외 2023",
+   "en": "jung2023representativeness"
+  },
+  {
+   "id": "lab:work/groves2004role",
+   "type": "Work",
+   "ko": "Groves 외 2004",
+   "en": "groves2004role"
+  },
+  {
+   "id": "lab:work/cavari2023survey",
+   "type": "Work",
+   "ko": "Cavari·Freedman 2023",
+   "en": "cavari2023survey"
+  },
+  {
+   "id": "lab:work/gelman2016mythical",
+   "type": "Work",
+   "ko": "Gelman 외 2016",
+   "en": "gelman2016mythical"
+  },
+  {
+   "id": "lab:work/clinton2022reluctant",
+   "type": "Work",
+   "ko": "Clinton 외 2022",
+   "en": "clinton2022reluctant"
+  },
+  {
+   "id": "lab:work/iyengar2019origins",
+   "type": "Work",
+   "ko": "Iyengar 외 2019",
+   "en": "iyengar2019origins"
+  },
+  {
+   "id": "lab:work/taber2006motivated",
+   "type": "Work",
+   "ko": "Taber·Lodge 2006",
+   "en": "taber2006motivated"
+  }
+ ],
+ "works": [
+  {
+   "id": "lusinchi2012president",
+   "title": "“President” Landon and the 1936 Literary Digest Poll: Were Automobile and Telephone Owners to Blame?"
+  },
+  {
+   "id": "meng2018statistical",
+   "title": "Statistical Paradises and Paradoxes in Big Data (I): Law of Large Populations, Big Data Paradox, and the 2016 US Presidential Election"
+  },
+  {
+   "id": "munhwa2023ars",
+   "title": "조사협회 “ARS는 비과학적”"
+  },
+  {
+   "id": "newdaily2020weight",
+   "title": "허용범위인 0.7과 1.5에 근접한 가중치 되풀이… 복수 여론조사 전문가 “문제 있다”"
+  },
+  {
+   "id": "sturgis2016report",
+   "title": "Report of the Inquiry into the 2015 British general election opinion polls"
+  },
+  {
+   "id": "seoul2024ars",
+   "title": "ARS는 민주, 전화면접은 국민의힘 우위…왜?"
+  },
+  {
+   "id": "kennedy2018evaluation",
+   "title": "An Evaluation of the 2016 Election Polls in the United States"
+  },
+  {
+   "id": "park2004bayesian",
+   "title": "Bayesian Multilevel Estimation with Poststratification: State-Level Estimates from National Polls"
+  },
+  {
+   "id": "wang2015forecasting",
+   "title": "Forecasting elections with non-representative polls"
+  },
+  {
+   "id": "choi2022effects",
+   "title": "조사방법 차이가 정치적 태도 조사결과에 미치는 영향: 중앙여심위 선거여론조사 통합자료 분석"
+  },
+  {
+   "id": "kwak2022accuracy",
+   "title": "현행 선거여론조사 방법의 정확성과 선거결과 예측 가능성"
+  },
+  {
+   "id": "jung2023representativeness",
+   "title": "선거 여론조사 응답자의 대표성과 조사기관과 언론에 대한 뉴스 수용자 인식 분석"
+  },
+  {
+   "id": "groves2004role",
+   "title": "The Role of Topic Interest in Survey Participation Decisions"
+  },
+  {
+   "id": "cavari2023survey",
+   "title": "Survey Nonresponse and Mass Polarization: The Consequences of Declining Contact and Cooperation Rates"
+  },
+  {
+   "id": "gelman2016mythical",
+   "title": "The Mythical Swing Voter"
+  },
+  {
+   "id": "clinton2022reluctant",
+   "title": "Reluctant Republicans, Eager Democrats? Partisan Nonresponse and the Accuracy of 2020 Presidential Pre-election Telephone Polls"
+  },
+  {
+   "id": "iyengar2019origins",
+   "title": "The Origins and Consequences of Affective Polarization in the United States"
+  },
+  {
+   "id": "taber2006motivated",
+   "title": "Motivated Skepticism in the Evaluation of Political Beliefs"
+  }
+ ]
+}

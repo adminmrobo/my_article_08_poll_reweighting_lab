@@ -1,0 +1,24 @@
+<!DOCTYPE html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>여론조사 보정 연구실</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#13141f;--panel:#1c1e2d;--rule:#363a52;--text:#eceaf3;--muted:#9d9bb8;--ok:#5ee39c;--info:#82b8ff;color-scheme:dark}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.7 "IBM Plex Sans KR","Malgun Gothic",system-ui,sans-serif}
+.wrap{max-width:860px;margin:0 auto;padding-block:56px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1{font-size:clamp(28px,4vw,40px);margin:.2em 0}.k{color:var(--ok);font-weight:700;font-size:13.5px}.m{color:var(--muted)}
+.cards{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:24px}
+a.card{display:block;text-decoration:none;color:var(--text);background:var(--panel);border:1px solid var(--rule);border-radius:14px;padding:16px 18px}
+a.card:hover,a.card:focus-visible{border-color:var(--info);outline:none}a.card b{color:var(--info);font-size:18px}
+img{max-width:100%;border-radius:10px;margin-top:10px}
+.cover{display:block;width:100%;height:auto;aspect-ratio:1600/686;margin:0 0 22px;border:1px solid var(--rule);border-radius:16px}
+.wrap{padding-top:32px}
+@media (max-width:640px){.cards{grid-template-columns:1fr}}
+</style></head><body><div class="wrap">
+<img class="cover" src="images/cover_index.webp" srcset="images/cover_index_800.webp 800w, images/cover_index.webp 1600w" sizes="(max-width:900px) 100vw, 828px" width="1600" height="686" alt="연구실의 네 연구원(초파리 연구원, 박사, 하루, Money-Robo)이 둥근 창 앞에서 밤 도시를 바라보는 표지">
+<div class="k">AI 연구실 해설 대시보드 · 특별편 X1</div>
+<h1>여론조사 보정 연구실</h1>
+<p class="m">강성층이 더 많이 답하는 여론조사로 유권자 전체를 추정하는 방법을 다룹니다. 글 · 안상선 ((주)M-Robo 대표)</p>
+<div class="cards">
+<a class="card" href="X1_poll_reweighting.html"><b>해설 페이지 →</b><p>정답을 아는 가상 세계에서 원시 평균, 사후층화, 지난 투표 가중, 부분 풀링, 여러 조사 합치기를 직접 돌려 봅니다.</p><img src="docs/images/thumb_x1.png" alt="해설 페이지 썸네일: 초파리 연구원과 Money-Robo"></a>
+<a class="card" href="frame_v0.html"><b>사후층화 표 v0 →</b><p>가상 한국인 100만 명 집계와 2025년 대선 결과로 만든 연령·성별·시도·지난 투표 표 (임시판).</p><img src="images/cover_frame_800.webp" width="800" height="343" loading="lazy" alt="칸칸이 인형이 든 서랍장 앞에서 일하는 네 연구원"></a>
+</div></div></body></html>
