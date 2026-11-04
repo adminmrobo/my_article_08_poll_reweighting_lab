@@ -88,7 +88,7 @@ detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering sha
 | 판 · 크기 | E · 1200×800 |
 | 제작 경로 | 외부: Genspark |
 | 배경 | 그림 전체 |
-| 구도 | 가운데 아래에 위층만 빨아올린 피펫과 시험관. 초파리는 왼쪽에서 오른쪽을 보며 시험관을 가리킴, Money-Robo는 오른쪽에서 왼쪽을 보며 옆에 금화 더미(더 많은 시험관을 원함), 박사는 가운데 뒤에서 턱에 손, 하루는 한쪽 옆에서 클립보드. 중요한 것은 위쪽 62% 안에 |
+| 구도 | 가운데 아래에 위층만 빨아올린 피펫과 시험관. 초파리는 왼쪽에서 오른쪽을 보며 시험관을 가리킴, 주판봇은 오른쪽에서 왼쪽을 보며 옆에 주판알 더미(더 많은 시험관을 원함), 박사는 가운데 뒤에서 턱에 손, 하루는 한쪽 옆에서 클립보드. 중요한 것은 위쪽 62% 안에 |
 | 표정·몸짓 | 초파리 E08 안내(가리킴, 의심), 박사 E09 생각, 하루 E13 기본, 로봇 E16 뿌듯함(금화) |
 | 소품 | 층이 갈라진 시험관, 피펫, 금화 더미, 클립보드 (글자 없음) |
 | 빛·분위기 | 시험관에 시선이 모이는 스포트라이트 |
@@ -98,7 +98,7 @@ detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering sha
 
 **프롬프트 (복사해서 사용)**
 ```
-detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, consistent with the reference images, cozy night laboratory mood, purple light, soft magenta and green fluorescent accents, 3:2 landscape scene, medium brightness, wide night laboratory with test tube racks, the Professor, a chibi male scientist with a big head, dark charcoal spiky hair with a white streak at the front, a small low ponytail at the back, very thick bold black eyebrows, teal-framed rectangular glasses, light peach skin, white lab coat over a black vest, black tie and black slacks, standing at the back center with a hand on his chin and a small question mark; the Fruit Fly, a tiny expressive cartoon fruit fly researcher with a dark charcoal-black segmented insect body, large glossy red compound eyes, a retro dark blue helmet with a yellow-white center stripe and small round side bolts, colorful dangling cables in magenta, purple and blue curving from the back of the helmet, a tiny white lab coat over a black vest, translucent veined wings, six thin black legs with the front pair used like hands, on the left looking right and pointing suspiciously at a test tube; MONEY-ROBO, a cute small floating chibi robot with a large glossy rounded-square white head and a small rounded white body with thick black outlines, a black pill-shaped screen face showing golden-yellow pixel eyes and mouth, a small round knob antenna on a short stem, stubby rounded fingerless arms, no legs, a black oval chest panel with a bright cyan pill-shaped core light, hovering above a small dark oval shadow, on the right looking left with a smug grin beside a small pile of gold coins; Haru, a cute anime girl lab assistant, long straight pink hair with navy blue streaks including a thick navy streak down the center of the bangs, two round messy hair buns on top of the head, a small ahoge, big bright blue eyes, light peach skin, wearing a lavender hoodie with white drawstrings over a white t-shirt, under an open white knee-length lab coat, at the side holding a blank clipboard; in the center foreground a glass test tube with a mint green top layer and a copper orange bottom layer, a pipette drawing liquid only from the top layer, a soft spotlight on the tube, no text, no letters, no numbers, no logos, no weapons, no cigarettes, no alcohol, no blood, no real brands
+detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, consistent with the reference images, cozy night laboratory mood, purple light, soft magenta and green fluorescent accents, 3:2 landscape scene, medium brightness, wide night laboratory with test tube racks, the Professor, a chibi male scientist with a big head, dark charcoal spiky hair with a white streak at the front, a small low ponytail at the back, very thick bold black eyebrows, teal-framed rectangular glasses, light peach skin, white lab coat over a black vest, black tie and black slacks, standing at the back center with a hand on his chin and a small question mark; the Fruit Fly, a tiny expressive cartoon fruit fly researcher with a dark charcoal-black segmented insect body, large glossy red compound eyes, a retro dark blue helmet with a yellow-white center stripe and small round side bolts, colorful dangling cables in magenta, purple and blue curving from the back of the helmet, a tiny white lab coat over a black vest, translucent veined wings, six thin black legs with the front pair used like hands, on the left looking right and pointing suspiciously at a test tube; JUPANBOT (AbaBot), a cute retro computer robot mascot with a boxy beige CRT-monitor body with rounded corners and thick dark brown outlines, a large dark green screen on the front where the face is drawn only with simple mint-green pixel blocks, a short thin antenna on a small square base topped with one tiny red-brown abacus bead, gray segmented arms with rounded gray mitten hands, two small dark gray tank treads instead of legs, carrying a small traditional wooden abacus with red-brown beads, on the right looking left with a smug grin beside a small pile of abacus beads; Haru, a cute anime girl lab assistant, long straight pink hair with navy blue streaks including a thick navy streak down the center of the bangs, two round messy hair buns on top of the head, a small ahoge, big bright blue eyes, light peach skin, wearing a lavender hoodie with white drawstrings over a white t-shirt, under an open white knee-length lab coat, at the side holding a blank clipboard; in the center foreground a glass test tube with a mint green top layer and a copper orange bottom layer, a pipette drawing liquid only from the top layer, a soft spotlight on the tube, no text, no letters, no numbers, no logos, no weapons, no cigarettes, no alcohol, no blood, no real brands, no white round robot head, no yellow or golden eyes, no floating robot, no gold coins
 ```
 
 ### 3-3. `sc_x1_outro` — 대결 뒤 (초파리 승)
@@ -107,17 +107,17 @@ detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering sha
 | 판 · 크기 | E · 1200×800 |
 | 제작 경로 | 직접 (페이지 안 CSS 무대 합성, 넣음) → 외부 선택 |
 | 배경 | 그림 전체 |
-| 구도 | 초파리가 앞·크게 팔짱, 작은 시험관 하나(1,000명). Money-Robo는 옆에서 큰 시험관 세 개(3,000명)를 안고 머쓱한 표정, 인정하는 몸짓. 박사가 가운데 뒤에서 보랏빛 불꽃, 하루가 옆에서 반짝이며 웃음 |
+| 구도 | 초파리가 앞·크게 팔짱, 작은 시험관 하나(1,000명). 주판봇은 옆에서 큰 시험관 세 개(3,000명)를 안고 머쓱한 표정, 인정하는 몸짓. 박사가 가운데 뒤에서 보랏빛 불꽃, 하루가 옆에서 반짝이며 웃음 |
 | 표정·몸짓 | 초파리 E16, 로봇 E14, 박사 E16, 하루 E01 |
 | 소품 | 시험관 넷, 봉인이 뜯긴 봉투 하나 (글자 없음) |
 | 빛·분위기 | 따뜻해진 연구실 조명 |
 | 피할 것 | 로봇 조롱, 글자 |
-| 대체 글 (alt) | 대결 뒤 초파리 연구원이 앞에서 팔짱을 끼고, Money-Robo가 옆에서 머쓱해하는 연구실 장면 |
+| 대체 글 (alt) | 대결 뒤 초파리 연구원이 앞에서 팔짱을 끼고, 주판봇이 옆에서 머쓱해하는 연구실 장면 |
 | 대신 쓰는 그림 | 팩 캐릭터 CSS 무대 합성 |
 
 **프롬프트 (외부 의뢰를 고를 때)**
 ```
-detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, consistent with the reference images, cozy night laboratory mood, purple light, soft magenta and green fluorescent accents, 3:2 landscape scene, medium brightness, the Fruit Fly, a tiny expressive cartoon fruit fly researcher with large glossy red compound eyes, a retro dark blue helmet with a yellow-white center stripe and small round side bolts, magenta, purple and blue cables, a tiny white lab coat over a black vest, in the front left, larger, arms crossed with a proud sparkle, beside one small test tube; MONEY-ROBO, a small floating chibi robot with a glossy rounded-square white head, a black pill-shaped screen face with golden-yellow pixel eyes showing droopy embarrassed eyes and pink blush lines, a cyan chest core light, on the right hugging three large test tubes, sheepishly accepting the result; the Professor, chibi scientist with charcoal spiky hair with a white streak, very thick black eyebrows, teal-framed rectangular glasses, white lab coat over black vest and tie, at the back center holding purple flames in both hands and laughing; Haru, anime girl lab assistant with long straight pink hair with navy streaks and two round hair buns, lavender hoodie under an open white lab coat, at the side smiling with sparkles; an opened sealed envelope on the desk, no text, no letters, no numbers, no logos, no weapons, no cigarettes, no alcohol, no blood, no real brands
+detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, consistent with the reference images, cozy night laboratory mood, purple light, soft magenta and green fluorescent accents, 3:2 landscape scene, medium brightness, the Fruit Fly, a tiny expressive cartoon fruit fly researcher with large glossy red compound eyes, a retro dark blue helmet with a yellow-white center stripe and small round side bolts, magenta, purple and blue cables, a tiny white lab coat over a black vest, in the front left, larger, arms crossed with a proud sparkle, beside one small test tube; JUPANBOT (AbaBot), a cute retro computer robot mascot with a boxy beige CRT-monitor body with rounded corners and thick dark brown outlines, a large dark green screen on the front where the face is drawn only with simple mint-green pixel blocks, a short thin antenna on a small square base topped with one tiny red-brown abacus bead, gray segmented arms with rounded gray mitten hands, two small dark gray tank treads instead of legs, carrying a small traditional wooden abacus with red-brown beads, the screen showing droopy embarrassed eyes and pink blush lines, on the right hugging three large test tubes, sheepishly accepting the result; the Professor, chibi scientist with charcoal spiky hair with a white streak, very thick black eyebrows, teal-framed rectangular glasses, white lab coat over black vest and tie, at the back center holding purple flames in both hands and laughing; Haru, anime girl lab assistant with long straight pink hair with navy streaks and two round hair buns, lavender hoodie under an open white lab coat, at the side smiling with sparkles; an opened sealed envelope on the desk, no text, no letters, no numbers, no logos, no weapons, no cigarettes, no alcohol, no blood, no real brands, no white round robot head, no yellow or golden eyes, no floating robot, no gold coins
 ```
 
 ### 3-4. `thumb_x1` — 목차 카드 썸네일
@@ -150,7 +150,7 @@ detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering sha
 **프롬프트**: 저장소 `specs/doctor/expressions/`의 E13 항목 `prompt_en`을 복사해 얼굴·몸짓 구절만 *calm gentle smile, holding a level brass balance scale with both hands* 로 바꾼다. 참고 이미지 `images/doctor/E13_neutral.png`, `refs/original/doctor_sheet.png`.
 
 ## 4. 일관성 지침
-- 참고 이미지: 공식 저장소 `refs/original/keyart_rivals.png`(넷이 함께) + 장면에 나오는 캐릭터의 팩 표정 원본 PNG (`images/fruitfly/E08_guiding.png`, `images/doctor/E09_thinking.png`, `images/haru/E13_neutral.png`, `images/money_robo/E16_proud.png`)
+- 참고 이미지: 공식 저장소 `refs/original/keyart_rivals.png`(넷이 함께) + 장면에 나오는 캐릭터의 팩 표정 원본 PNG (`images/fruitfly/E08_guiding.png`, `images/doctor/E09_thinking.png`, `images/haru/E13_neutral.png`, `images/jupanbot/E16_proud.png`)
 - 같은 캐릭터는 같은 세션에서, 시드 고정 가능하면 고정: 박사 1101, 조수 1102, 초파리 1103, 로봇 1104
 - 표정만 바꿀 때 추가 문장: *same character, same size and position, only change the facial expression and pose to ...*
 - 투명 배경이 안 되면: *solid flat #00ff00 background*
@@ -182,20 +182,20 @@ python3 build_character_pack.py --ingest 받은폴더/ --plates bg_x1=F,sc_x1_he
 - **배경:** 그림 전체
 - **받을 파일 이름:** `bg_x1.png`
 - **프롬프트:** 3-1의 프롬프트 그대로
-- **네거티브:** `blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, text, letters, watermark, ballot box, party logo`
+- **네거티브:** `blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, text, letters, watermark, ballot box, party logo, no white round robot head, no yellow or golden eyes, no floating robot, no gold coins`
 - **확인할 것:** 왼쪽 45%가 단순한지, 시료 두 층이 파랑·빨강으로 나오지 않았는지
 
 ### 의뢰 2/3 · `sc_x1_hero`
-- **올릴 참고 이미지:** `refs/original/keyart_rivals.png`, `images/fruitfly/E08_guiding.png`, `images/doctor/E09_thinking.png`, `images/money_robo/E16_proud.png`
+- **올릴 참고 이미지:** `refs/original/keyart_rivals.png`, `images/fruitfly/E08_guiding.png`, `images/doctor/E09_thinking.png`, `images/jupanbot/E16_proud.png`
 - **크기·비율:** 1200×800 (3:2) 이상
 - **배경:** 그림 전체
 - **받을 파일 이름:** `sc_x1_hero.png`
 - **프롬프트:** 3-2의 프롬프트 그대로
-- **네거티브:** `blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark`
+- **네거티브:** `blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, no white round robot head, no yellow or golden eyes, no floating robot, no gold coins`
 - **확인할 것:** 박사 안경이 둥글게 나오면 다시. 금화에 "B"나 글자가 있으면 다시
 
 ### 의뢰 3/3 · `sc_x1_outro` (선택)
-- **올릴 참고 이미지:** `refs/original/keyart_rivals.png`, `images/fruitfly/E16_proud.png`, `images/money_robo/E14_awkward.png`, `images/doctor/E16_proud.png`, `images/haru/E01_joy.png`
+- **올릴 참고 이미지:** `refs/original/keyart_rivals.png`, `images/fruitfly/E16_proud.png`, `images/jupanbot/E14_sheepish.png`, `images/doctor/E16_proud.png`, `images/haru/E01_joy.png`
 - **크기·비율:** 1200×800 (3:2) 이상
 - **배경:** 그림 전체
 - **받을 파일 이름:** `sc_x1_outro.png`
@@ -215,7 +215,7 @@ python3 build_character_pack.py --ingest 받은폴더/ --plates bg_x1=F,sc_x1_he
   "images": [
     {"key":"bg_x1","plate":"F","size":[1920,720],"maker":"external","tool":"genspark","status":"requested","priority":"P1","slot":"hero-bg","fallback":"css","alt":"밤의 연구실, 시료 선반과 봉인된 봉투 상자가 보이는 배경"},
     {"key":"sc_x1_hero","plate":"E","size":[1200,800],"maker":"external","tool":"genspark","status":"requested","priority":"P1","slot":"hero-stage","fallback":"composite","alt":"네 캐릭터가 연구실에서 여론조사 표본 시험관을 바라보는 장면"},
-    {"key":"sc_x1_outro","plate":"E","size":[1200,800],"maker":"claude","status":"placed","priority":"P2","slot":"outro","fallback":"composite","alt":"대결 뒤 초파리 연구원이 앞에서 팔짱을 끼고, Money-Robo가 옆에서 머쓱해하는 연구실 장면","note":"외부 의뢰 선택"},
+    {"key":"sc_x1_outro","plate":"E","size":[1200,800],"maker":"claude","status":"placed","priority":"P2","slot":"outro","fallback":"composite","alt":"대결 뒤 초파리 연구원이 앞에서 팔짱을 끼고, 주판봇이 옆에서 머쓱해하는 연구실 장면","note":"외부 의뢰 선택"},
     {"key":"thumb_x1","plate":"I","size":[600,400],"maker":"claude","status":"placed","priority":"P2","slot":"index-card","alt":"X1 여론조사 보정 페이지 카드"},
     {"key":"og_x1","plate":"K","size":[1200,630],"maker":"claude","status":"placed","priority":"P3","slot":"og","alt":"X1번 여론조사 보정 페이지 미리보기"},
     {"key":"doc_scale","pack":"doc_e13","plate":"A","size":96,"status":"pack-substitute","priority":"P2","slot":"duel-draw","alt":""},
